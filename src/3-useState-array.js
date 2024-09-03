@@ -3,7 +3,6 @@ import { data } from '../src/data';
 import './3-useState-array.css'
 
   const UseStateArray = () => {
-    const [people, setPeople] = useState(data);
   
   return (
     <>
