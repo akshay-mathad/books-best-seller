@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+.container{
+  /* background-color: rgb(127, 210, 251); */
+  background-color: white;
+  font-family: "Afacad", sans-serif;
+font-optical-sizing: auto;
+font-weight: auto;
+font-style: normal;
+/* width: 500px;
+height: 300px; */
+border: 1px solid black;
+margin: 0 auto;
+/* margin-top: 40px; */
+padding: 20px;
+padding-top: 40px;
+border-radius: 0.5rem;
+display:flex;
+width: 1535px;
+flex-direction:column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  margin: 0 auto;
+  font-style: italic;
+  text-decoration: underline;
+  
+  font-size: 50px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blocks{
+  display:flex;
+  flex-wrap: wrap;
+  /* width: fit-content; */
+  /* height: inherit; */
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+book{
+
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  margin: 20px;
+  /* margin-left: 0px; */
+  width: fit-content;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+      background: linear-gradient(to bottom, #f0f0f0, #ffffff); /* Adjust the colors as needed */
+  
+}
+bookTitle{
+  font-size:xx-large;    
+  font-weight: bold;
+  width: 300px;
+  height: 150px;
+  overflow:auto;
 }
 
-.App-link {
-  color: #61dafb;
+rank{
+  font-size: x-large;
+  font-weight: bolder;
+  background-color: red;
+  color: whitesmoke;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  margin: 0 auto;
+  width: 200px;
+  height: 270px;
+  padding: 0px;
+}
+author{
+  font-size: large;
+  font-weight: bold;
+}
+
+rating{
+  font-size: large;
+}
+
+cover{
+  font-size: large;
+}
+
+price{
+  font-size: large;
+  color: red;
+}
+
+#view{
+  font-size: x-large;
+  font-weight: bold;
+  border:thin dotted yellow;
+  background-color: rgb(237, 18, 18);
+  color: #ffffff;
+  border-radius: 20px;
 }
